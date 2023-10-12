@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Paragraphs with BEM Naming</title>
+    <style>
+        /* Define CSS rules using class selectors */
+        
+        /* Block styles */
+        .paragraph {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        /* Element styles */
+        .paragraph__intro {
+            color: #0074e4; /* Blue */
+        }
+
+        .paragraph__main-content {
+            color: #555; /* Gray */
+            font-style: italic;
+        }
+
+        .paragraph__important {
+            font-weight: bold;
+            color: #ff4500; /* Orange Red */
+        }
+        
+        .paragraph__conclusion {
+            background-color: #f0e68c; /* Khaki */
+            padding: 10px;
+        }
+        
+        /* Modifier styles */
+        .paragraph__important--highlighted {
+            background-color: #ffeb3b; /* Yellow */
+        }
+    </style>
+</head>
+<body>
+    <p class="paragraph paragraph__intro">This is an introductory paragraph.</p>
+    
+    <p class="paragraph paragraph__main-content">This is the main content paragraph. It's styled with italics.</p>
+    
+    <p class="paragraph paragraph__important">This is an important paragraph.</p>
+    
+    <p class="paragraph paragraph__conclusion">This is a concluding paragraph.</p>
+    
+    <p class="paragraph paragraph__important paragraph__important--highlighted">This is another important paragraph, but highlighted.</p>
+</body>
+</html>
