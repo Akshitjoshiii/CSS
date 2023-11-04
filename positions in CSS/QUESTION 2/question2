@@ -1,0 +1,14 @@
+
+Absolute and relative positioning are two common techniques used in web design and CSS (Cascading Style Sheets) to control the layout and placement of elements on a web page. They have distinct characteristics and are used for different purposes:
+
+Absolute Positioning:
+
+Absolute positioning allows you to precisely place an element on a web page relative to its nearest positioned ancestor (a parent element with a CSS property like position: relative or position: absolute) or, if none exists, relative to the initial containing block (usually the <body> element).
+Elements with absolute positioning are taken out of the normal document flow, meaning they don't affect the positioning of other elements. This can lead to elements overlapping or obscuring each other.
+You can specify the exact position of the element using properties like top, right, bottom, and left. These values are often given in pixels or percentages.
+Absolute positioning is useful for creating overlays, pop-up menus, tooltips, or other elements that need to be precisely positioned and don't impact the layout of surrounding content.
+Relative Positioning:
+
+Relative positioning also allows you to adjust the position of an element, but it is relative to the element's normal position in the document flow. The element still occupies space in the layout, and other elements are aware of its presence.
+You can use properties like top, right, bottom, and left with relative positioning, just like with absolute positioning. However, the element's new position is relative to where it would be in the normal flow of the document.
+Relative positioning is useful when you want to make minor adjustments to an element's position while keeping it in the document flow. For example, you can nudge an element slightly up or to the right.
